@@ -1,8 +1,8 @@
 button {
-  background-color: darkviolet;
+  background-color: lightblue;
   color: white;
 }
 
 button:hover {
-  background-color: blue;
+  background-color: white;
 }
