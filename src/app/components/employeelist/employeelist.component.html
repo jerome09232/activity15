@@ -1,1 +1,8 @@
-<p>employeelist works!</p>
+<p>Employee List works!</p>
+<input type="text" [(ngModel)]="item"/>
+<button class="btn btn-primary" (click)="addItems()">Add Employee</button>
+<ul>
+  <li *ngFor="let item of employeeList">
+    {{item}}
+  </li>
+</ul>
