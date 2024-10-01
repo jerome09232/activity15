@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './studentlist.component.css'
 })
 export class StudentlistComponent {
-  studentList: string[] = ["Jerome", "Jerome2nd"];
+  studentList: string[] = ["Jerome1", "Jerome2"];
   item: string = '';
 
   addItems() {
     this.studentList.push(this.item);
+  }
+
+  deleteStudent(index: number) {
+    this.studentList.splice(index, 1);
   }
 }

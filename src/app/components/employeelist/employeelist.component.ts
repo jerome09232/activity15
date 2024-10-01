@@ -12,4 +12,8 @@ export class EmployeelistComponent {
   addItems() {
     this.employeeList.push(this.item);
   }
+
+  deleteEmployee(index: number) {
+    this.employeeList.splice(index, 1);
+  }
 }
