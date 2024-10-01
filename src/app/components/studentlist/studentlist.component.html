@@ -1,0 +1,8 @@
+<p>Student List works!</p>
+<input type="text" [(ngModel)]="item"/>
+<button class="btn btn-primary" (click)="addItems()">Add Student</button>
+<ul>
+  <li *ngFor="let item of studentList">
+    {{item}}
+  </li>
+</ul>
