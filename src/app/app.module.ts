@@ -162,7 +162,7 @@ const  routes: Routes = [
     TvshowComponent,
     FurnitureComponent,
     AccessoryComponent,
-
+    BuildingComponent,
 
 
 
