@@ -152,7 +152,7 @@ const  routes: Routes = [
     StationeryComponent,
     FlowerComponent,
     DestinationComponent,
-
+    LaptopComponent,
 
 
 
