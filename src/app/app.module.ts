@@ -157,7 +157,7 @@ const  routes: Routes = [
 
 
     ComputerhardwareComponent,
-
+    MobileappComponent,
 
 
   ],
