@@ -173,6 +173,12 @@ const  routes: Routes = [
     ExerciseComponent,
     MealplanComponent,
     BudgetComponent,
+    PresentationComponent,
+
+
+
+
+
 
 
   ],
