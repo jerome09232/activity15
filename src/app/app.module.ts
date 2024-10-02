@@ -151,6 +151,10 @@ const  routes: Routes = [
     LectureComponent,
     StationeryComponent,
     FlowerComponent,
+    DestinationComponent,
+
+
+
 
 
   ],
