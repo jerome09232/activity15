@@ -150,7 +150,7 @@ const  routes: Routes = [
     InventoryComponent,
     LectureComponent,
     StationeryComponent,
-
+    FlowerComponent,
 
 
   ],
