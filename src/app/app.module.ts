@@ -170,7 +170,7 @@ const  routes: Routes = [
 
 
     PodcastComponent,
-
+    ExerciseComponent,
 
 
 
