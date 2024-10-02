@@ -5,7 +5,7 @@ interface Laptop {
 @Component({
   selector: 'app-laptop',
   templateUrl: './laptop.component.html',
-  styleUrl: './laptop.component.css'git
+  styleUrl: './laptop.component.css'
 })
 export class LaptopComponent {
   laptopList: Laptop[] = [

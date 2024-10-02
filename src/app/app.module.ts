@@ -153,6 +153,9 @@ const  routes: Routes = [
     FlowerComponent,
     DestinationComponent,
     LaptopComponent,
+    LaptopspecificationsComponent,
+
+
 
 
 
