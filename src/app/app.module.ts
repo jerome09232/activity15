@@ -160,7 +160,7 @@ const  routes: Routes = [
     MobileappComponent,
     VideoComponent,
     TvshowComponent,
-
+    FurnitureComponent,
 
 
 
