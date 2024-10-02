@@ -169,6 +169,9 @@ const  routes: Routes = [
 
 
 
+    PodcastComponent,
+
+
 
 
 
