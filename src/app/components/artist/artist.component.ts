@@ -10,7 +10,6 @@ interface Artist {
 export class ArtistComponent {
   artistList: Artist[] = [
     { name: "Leonardo da Vinci" },
-    { name: "Michelangelo" },
     { name: "Vincent van Gogh" }
   ];
   newArtist: string = '';
