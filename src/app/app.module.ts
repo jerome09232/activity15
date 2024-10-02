@@ -144,7 +144,7 @@ const  routes: Routes = [
     PhoneComponent,
     MusicComponent,
 
-
+    FoodComponent,
 
 
   ],
