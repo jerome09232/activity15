@@ -163,7 +163,8 @@ const  routes: Routes = [
     FurnitureComponent,
     AccessoryComponent,
     BuildingComponent,
-
+    PaintingComponent,
+    ArtistComponent,
 
 
 
