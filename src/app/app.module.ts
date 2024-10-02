@@ -174,7 +174,7 @@ const  routes: Routes = [
     MealplanComponent,
     BudgetComponent,
     PresentationComponent,
-
+    TourComponent,
 
 
 
