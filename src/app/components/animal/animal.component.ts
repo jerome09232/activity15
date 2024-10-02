@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './animal.component.css'
 })
 export class AnimalComponent {
+  animalList: string[] = ["Dog", "Cat", "Elephant"];
+  item: string = '';
 
+  addItems() {
+    this.animalList.push(this.item);
+  }
+
+  deleteAnimal(index: number) {
+    this.animalList.splice(index, 1);
+  }
 }
