@@ -175,7 +175,7 @@ const  routes: Routes = [
     BudgetComponent,
     PresentationComponent,
     TourComponent,
-
+    EventComponent,
 
 
 
