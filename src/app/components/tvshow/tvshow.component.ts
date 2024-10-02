@@ -12,7 +12,6 @@ interface TVShow {
 export class TvshowComponent {
   showList: TVShow[] = [
     { name: "Stranger Things" },
-    { name: "The Crown" },
     { name: "Game of Thrones" }
   ];
   newShow: string = '';
