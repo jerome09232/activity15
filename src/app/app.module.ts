@@ -177,7 +177,7 @@ const  routes: Routes = [
     TourComponent,
     EventComponent,
     DeveloperComponent,
-
+    FrameworkComponent,
 
 
 
