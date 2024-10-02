@@ -149,7 +149,7 @@ const  routes: Routes = [
     ClassroomComponent,
     InventoryComponent,
     LectureComponent,
-
+    StationeryComponent,
 
 
 
