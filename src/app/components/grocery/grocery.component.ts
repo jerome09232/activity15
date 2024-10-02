@@ -3,10 +3,6 @@ import {FormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-grocery',
-  standalone: true,
-  imports: [
-    FormsModule
-  ],
   templateUrl: './grocery.component.html',
   styleUrl: './grocery.component.css'
 })

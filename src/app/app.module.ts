@@ -145,6 +145,9 @@ const  routes: Routes = [
     MusicComponent,
 
     FoodComponent,
+    GroceryComponent,
+    ClassroomComponent,
+
 
 
   ],
