@@ -165,7 +165,7 @@ const  routes: Routes = [
     BuildingComponent,
     PaintingComponent,
     ArtistComponent,
-
+    ComposerComponent,
 
 
 
