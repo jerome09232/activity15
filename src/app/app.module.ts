@@ -178,7 +178,7 @@ const  routes: Routes = [
     EventComponent,
     DeveloperComponent,
     FrameworkComponent,
-
+    LibraryComponent,
 
 
   ],
