@@ -5,7 +5,10 @@ interface Contact {
   name: string;
   phoneNumber: string;
 
-}
+}import { Injectable } from '@angular/core';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-phone',
   templateUrl: './phone.component.html',

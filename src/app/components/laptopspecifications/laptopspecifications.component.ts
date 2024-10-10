@@ -7,7 +7,10 @@ interface LaptopSpec {
   storage: number;
   screenSize: number;
 }
-
+import { Injectable } from '@angular/core';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-laptopspecifications',
   templateUrl: './laptopspecifications.component.html',

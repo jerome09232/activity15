@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 interface Lecture {
   topic: string;
   date: Date;
-}
+}import { Injectable } from '@angular/core';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-lecture',
   templateUrl: './lecture.component.html',

@@ -3,7 +3,10 @@ interface TourDate {
   city: string;
   date: Date;
 }
-
+import { Injectable } from '@angular/core';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-tour',
   templateUrl: './tour.component.html',

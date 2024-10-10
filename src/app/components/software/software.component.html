@@ -1,1 +1,9 @@
-<p>software works!</p>
+<input type="text" [(ngModel)]="item" placeholder="Software Name">
+<button (click)="addItems()">Add Software</button>
+
+<ul>
+  <li *ngFor="let software of softwareList; let i = index">
+    {{ software.name }} - {{ software.version }}
+    <button (click)="deleteProduct(i)">Delete</button>
+  </li>
+</ul>

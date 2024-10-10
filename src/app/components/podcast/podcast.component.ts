@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 interface PodcastEpisode {
   title: string;
 }
-
+import { Injectable } from '@angular/core';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-podcast',
   templateUrl: './podcast.component.html',
